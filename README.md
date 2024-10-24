@@ -52,28 +52,26 @@ Key configuration files:
 
 The application is automatically deployed through AWS Amplify's CI/CD pipeline. Any changes pushed to the main branch will trigger a new deployment.
 
-Challenges Faced During Development
+## Challenges Faced During Development
 During the development of this application, several significant challenges were encountered:
 
 Git Repository Issues
-
-Encountered difficulties when attempting to push code to the GitHub repository
-Initial pushes to the main branch were problematic
-Git authentication and authorization presented obstacles
+- Encountered difficulties when attempting to push code to the GitHub repository
+- Initial pushes to the main branch were problematic
+- Git authentication and authorization presented obstacles
 
 
 SSH Key Configuration
-
-Setting up the Git passphrase proved challenging
-SSH key generation and management required additional configuration
-Authentication with GitHub via SSH needed multiple attempts
+- Setting up the Git passphrase proved challenging
+- SSH key generation and management required additional configuration
+- Authentication with GitHub via SSH needed multiple attempts
 
 
 AWS Amplify Cloud Sandbox
 
-Creating and configuring the cloud sandbox environment presented several hurdles
-Faced credential errors when attempting to create the sandbox
-Authentication token issues occurred during sandbox initialization
+- Creating and configuring the cloud sandbox environment presented several hurdles
+- Faced credential errors when attempting to create the sandbox
+- Authentication token issues occurred during sandbox initialization
 
 ## Application Structure
 
